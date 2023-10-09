@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 25px;
+  float: left;
+  font-family: "Poppins";
+  color: #144272;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+
+/* .fixteen {
+  position: fixed;
+  height: auto;
+  left: 10px;
+  width: 5px;
+  height: 5px;
+} */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  word-spacing: 30px;
+  font-size: 12px;
+  background-color: #cde3fd;
+  font-family: "Poppins", sans-serif;
+}
+
+/* .btn {
+  background-color: #144272;
+  color: white;
+  padding: 4px 20px 4px 20px;
+  border-radius: 1cm;
+  border-style: groove;
+  cursor: pointer;
+  font-size: 17px;
+} */
+/* .header {
+  background-color: rgba(0, 0, 0, 0.5); //warna latar belakang transparan
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+
+.navbar {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: #0a2647;
+  letter-spacing: 2px;
+}
+
+/* .register {
+  background-color: #cde3fd;
+  border-color: #144272;
+  padding: 4px 20px 4px 20px;
+  border-radius: 1cm;
+  border-style: groove;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 17px;
+}
+.login {
+  background-color: #1450a3;
+  color: white;
+  border-color: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 2cm;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 17px;
+} */
+.navbar a.active,
+.navbar a:hover {
+  text-decoration: underline;
+}
+section {
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.img-home {
+  width: 750px;
+  height: 500px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans-ms";
+  color: #0a2647;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "comic sans-ms";
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #0a2647;
+  width: 100%;
+  line-height: 50px;
+}
+
+/* button {
+  border-radius: 2cm;
+  width: 75px;
+  height: 25px;
+
+} */
+
+.highlight {
+  background-color: #ffa41b;
+  color: #0a2647;
+  padding: 10px;
+  width: 200px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+a.tes-button {
+  background-color: #1450a3;
+  color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 5px 20px 5px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.row {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.col {
+  padding: 4px 20px 4px 20px;
+  margin-top: 1px;
+}
+
+.course {
+  display: flex;
+  justify-content: center; /* Mengatur agar konten berada di tengah secara horizontal */
+  align-items: center;
+}
+
+/* .footer {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+} */
+
+/* FOOTER STYLING */
+.container {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  padding-bottom: 10px;
+}
+
+.footer-col h3 {
+  color: #0a2647;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+  position: relative;
+}
+
+.footer-col h3,
+p {
+  padding-right: 20px;
+}
+
+.footer-col h3::before {
+  content: "";
+  width: 110px;
+  height: 3px;
+  position: absolute;
+  background-color: #ffa41b;
+  bottom: -10px;
+}
+
+.footer-col .input-name,
+.input-email {
+  border: none;
+  width: 300px;
+  height: 45px;
+  display: block;
+  padding-left: 20px;
+  margin: 14px 2px;
+}
+
+.footer-col .input-message {
+  border: none;
+  width: 400px;
+  height: 100px;
+  display: block;
+  padding-left: 20px;
+  margin: 14px 10px;
+}
+
+.button {
+  width: 400px;
+  height: 45px;
+  padding: 0px 20px;
+  background-color: #1450a3;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.copyright {
+  color: #0a2647;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin: 10px 20px;
+  word-spacing: 10px;
+  transition: 0.5px;
+  -webkit-transition: 0.5px;
+  -moz-transition: 0.5px;
+  -ms-transition: 0.5px;
+  -o-transition: 0.5px;
+}
+
+@media (max-width: 600px) {
+  footer .row {
+    flex-direction: column;
+    padding: 20px 30px;
+  }
+  .footer-col input {
+    width: 100%;
+  }
+}

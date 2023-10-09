@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 25px;
+  float: left;
+  font-family: "Poppins";
+  color: #144272;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  word-spacing: 30px;
+  font-size: 12px;
+  background-color: #cde3fd;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar a {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: #0a2647;
+  letter-spacing: 2px;
+  display: inline;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* content 1 */
+.first-content {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.first-content h2 {
+  padding: 20px;
+  padding-bottom: 10px;
+  /* border-bottom: 2px solid #ffa41b;
+  border-bottom-width: 10%; */
+  color: #0a2647;
+}
+
+.container-col {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.underline {
+  width: 20%;
+  height: 5px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  background-color: #ffa41b;
+}
+
+/* content 2 */
+.second-content {
+  text-align: center;
+  margin-top: 40px;
+}
+.second-content h2 {
+  padding: 20px;
+  padding-bottom: 10px;
+  color: #0a2647;
+}
+
+.second-underline {
+  width: 10%;
+  height: 5px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  background-color: #ffa41b;
+}
+
+/* content 3 */
+
+.row-third {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 50px;
+}
+
+.col {
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.third-content h2 {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  padding-bottom: 10px;
+  color: #0a2647;
+}
+
+.third-underline {
+  width: 10%;
+  height: 5px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  background-color: #ffa41b;
+}
