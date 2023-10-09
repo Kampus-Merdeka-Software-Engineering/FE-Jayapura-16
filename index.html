@@ -95,23 +95,24 @@
             <p>Thankyou in advance. Have a great day!</p>
           </div>
           <!-- second column -->
-          <div class="footer-col">
-            <form class="send" action="/api/submit" method="POST">
-              <input type="text" placeholder="Your Name" class="input-name" />
-              <input type="text" placeholder="Your Email" class="input-email" />
-            <div class="social-icon">
-              <a href=""><i class="fa-brands fa-github"></i></a>
-              <a href=""><i class="fas fa-envelope email-icon"></i></a>
-              <a href=""><i class="fa-brands fa-linkedin"></i></a>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <form class="send">
+            <div class="footer-col">
+                <input type="text" placeholder="Your Name" class="input-name" name="name" />
+                <input type="text" placeholder="Your Email" class="input-email" name="email" />
+                  <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fas fa-envelope email-icon"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  </div>
             </div>
-          </div>
-          <!-- third column -->
-          <div class="footer-col">
-              <input type="text" placeholder="Message" class="input-message" />
-              <button type="submit" value="submit" class="button">Submit</button>
-            </form>
-          </div>
+            <!-- third column -->
+            <div class="footer-col">
+                <input type="text" placeholder="Message" class="input-message" name="message" />
+                <button type="submit" value="submit" class="button">Submit</button>
+            
+            </div>
+        </form>
         </div>
 
         <!-- <div class="row">

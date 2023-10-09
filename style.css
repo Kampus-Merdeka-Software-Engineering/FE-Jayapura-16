@@ -260,6 +260,11 @@ p {
   -o-transition: 0.5px;
 }
 
+.send {
+  width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
 @media (max-width: 600px) {
   footer .row {
     flex-direction: column;
